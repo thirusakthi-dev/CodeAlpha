@@ -22,7 +22,7 @@ const Contact = () => {
       </section>
       <section className="contact-container">
         <figure className="contact-item">
-          <a href="+916369594529">
+          <a>
             <img
               src={darkMode ? Phone : PhoneDark}
               style={{ width: 29, height: 29 }}
@@ -40,7 +40,7 @@ const Contact = () => {
           </a>
         </figure>
         <figure className="contact-item">
-          <a href="mailto:thirusakthi.official@gmail.com" target="_blank">
+          <a href="https://github.com/thirusakthi-dev" target="_blank">
             <img
               src={darkMode ? Github : GithubDark}
               style={{ width: 29, height: 29 }}
