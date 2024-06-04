@@ -1,4 +1,3 @@
-import React from "react";
 import Profile from "../assets/images/dev-profile.png";
 
 const About = () => {

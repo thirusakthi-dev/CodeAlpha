@@ -1,7 +1,6 @@
 import CSharpIcon from "../assets/icons/skills/csharp.svg";
 import CSSIcon from "../assets/icons/skills/css.svg";
 import GitIcon from "../assets/icons/skills/github.svg";
-import GitLightIcon from "../assets/icons/skills/github-white.png";
 import HTMLIcon from "../assets/icons/skills/html.svg";
 import JSIcon from "../assets/icons/skills/javascript.svg";
 import PostManIcon from "../assets/icons/skills/postman.svg";

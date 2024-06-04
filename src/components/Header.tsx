@@ -1,4 +1,3 @@
-import React from "react";
 import LightIcon from "../assets/icons/light.png";
 import DarkIcon from "../assets/icons/dark.png";
 import { useDarkMode } from "./ThemeContext";

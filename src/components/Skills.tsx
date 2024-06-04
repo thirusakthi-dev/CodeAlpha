@@ -1,4 +1,3 @@
-import React from "react";
 import SkillItem from "./Skill-Item";
 import { SkillsData, ToolsData } from "../utils/SkillIcons";
 

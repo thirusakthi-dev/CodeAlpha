@@ -1,4 +1,3 @@
-import React from "react";
 import { useDarkMode } from "./ThemeContext";
 import LinkedInDark from "../assets/icons/social/linkedin.png";
 import LinkedIn from "../assets/icons/social/linkedin-light.png";
@@ -6,7 +5,8 @@ import Email from "../assets/icons/social/email-light.png";
 import EmailDark from "../assets/icons/social/email-dark.png";
 import PhoneDark from "../assets/icons/social/phone-dark.png";
 import Phone from "../assets/icons/social/phone-light.png";
-import Github from "../assets/icons/skills/github.svg";
+import GithubDark from "../assets/icons/skills/github.svg";
+import Github from "../assets/icons/skills/github-white.png";
 
 const Contact = () => {
   const { darkMode } = useDarkMode();
@@ -42,7 +42,7 @@ const Contact = () => {
         <figure className="contact-item">
           <a href="mailto:thirusakthi.official@gmail.com" target="_blank">
             <img
-              src={darkMode ? Github : Github}
+              src={darkMode ? Github : GithubDark}
               style={{ width: 29, height: 29 }}
             ></img>
             <figcaption>github.com/thirusakthi-dev</figcaption>

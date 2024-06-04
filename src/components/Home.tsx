@@ -1,4 +1,3 @@
-import React from "react";
 import Profile from "../assets/images/dev-profile.png";
 import Resume from "../assets/files/Thiruvengadam ReactJS Resume.pdf";
 
@@ -16,10 +15,10 @@ const Home = () => {
           </p>
         </div>
         <div className="home-btns">
-          <a href={Resume} className="button">
+          <a href={Resume} className="button" target="_blank">
             Resume
           </a>
-          <a href="#contact" target="_blank" className="button">
+          <a href="#contact" className="button">
             Contact
           </a>
         </div>
