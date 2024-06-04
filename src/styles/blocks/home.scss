@@ -1,0 +1,46 @@
+@import "../abstracts/variables.scss";
+@import "../components/button";
+.home-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 36rem;
+  margin: 1rem;
+}
+
+.profile-logo {
+  width: clamp(230px, 100%, 330px);
+}
+
+.profile-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.home-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.home-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.dev-name {
+  font-size: $font-size-head;
+}
+
+.home-desc {
+  font-size: $font-size-content;
+}
+
+.button {
+  @include button;
+}
+
+.home-btns {
+  display: flex;
+  gap: 0.6rem;
+}

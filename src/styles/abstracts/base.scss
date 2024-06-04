@@ -1,0 +1,28 @@
+@import "variables";
+
+body {
+  font-family: $font-family;
+}
+.section-head {
+  text-align: center;
+  background-color: #eb1a06;
+  color: #f5f8fe;
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  display: block;
+  width: clamp(5rem, 100%, 9rem);
+  font-size: $font-size-content;
+  font-family: inherit;
+}
+
+.sub-head {
+  font-size: $font-size-l;
+}
+
+.content {
+  font-size: $font-size-content;
+}
+
+.content-desc {
+  font-size: $font-size-content;
+}

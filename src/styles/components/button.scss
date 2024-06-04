@@ -1,0 +1,14 @@
+@mixin button {
+  background-color: #646cff;
+  border: 0.1px solid #646cff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 9px;
+  color: whitesmoke;
+  text-decoration: none;
+
+  &:hover,
+  &:focus-within {
+    background-color: #09408c;
+    border-color: #09408c;
+  }
+}

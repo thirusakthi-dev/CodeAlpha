@@ -1,0 +1,18 @@
+@import "abstracts/base.scss";
+@import "core/reset.scss";
+@import "blocks/header.scss";
+@import "blocks/home.scss";
+@import "blocks/about.scss";
+@import "blocks/skills.scss";
+@import "blocks/experience.scss";
+@import "blocks/contact.scss";
+@import "core/responsive.scss";
+@import "core/theme.scss";
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+body {
+  font-family: "Poppins";
+}

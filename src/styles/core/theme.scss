@@ -1,0 +1,25 @@
+@import "../abstracts/variables.scss";
+.dark-mode {
+  background-color: $bg-color-dark;
+  color: #f5f8fe;
+  transition: all 1s;
+
+  .nav-item,
+  .contact-item {
+    a {
+      color: #f5f8fe;
+    }
+  }
+}
+.light-mode {
+  background-color: $bg-color-light;
+  transition: all 1s;
+  color: #000;
+
+  .nav-item,
+  .contact-item {
+    a {
+      color: #000;
+    }
+  }
+}

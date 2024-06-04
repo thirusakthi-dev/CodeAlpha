@@ -1,0 +1,47 @@
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.skills-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem;
+}
+
+.skills-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  //   margin: 0.5rem;
+  align-content: center;
+}
+
+.skill-item {
+  border: 0.1rem solid#2c63e4;
+  padding: 0.7rem;
+  border-radius: 1rem;
+
+  &:hover {
+    transform: scale(1.1);
+
+    //filter: drop-shadow(0 0 1.9rem #eaff00);
+    transition: all 300ms;
+  }
+}
+
+.skill-icon {
+  &:hover {
+    transition: all 0.65s;
+    filter: drop-shadow(0 0 1rem #ffee10);
+    transform: rotateY(360deg);
+  }
+}

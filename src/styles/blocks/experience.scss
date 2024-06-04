@@ -1,0 +1,62 @@
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.experience-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.experience-item {
+  padding: 1rem;
+  border: 2.3px solid #2c63e4;
+  border-radius: 1rem;
+  width: clamp(250px, 100%, 500px);
+  gap: 1.6rem;
+  min-height: 270px;
+  list-style: none;
+  display: flex;
+
+  img {
+    border-radius: 19%;
+  }
+}
+
+.experience-logo {
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.experience-desc {
+  font-size: $font-size-s;
+  padding: 0.1rem;
+}
+
+.role {
+  font-size: $font-size-l;
+}

@@ -1,0 +1,28 @@
+@import "../abstracts/variables.scss";
+
+.dev-logo {
+  max-width: 300px;
+}
+
+.dev-img {
+  width: clamp(100px, 100%, 300px);
+  object-fit: cover;
+}
+
+.about-section {
+  display: flex;
+  background-color: #3398d2;
+  margin: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #f5f8fe;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.59rem;
+  font-family: $font-size-content;
+}
