@@ -11,7 +11,7 @@ body {
   border-radius: 0.5rem;
   display: block;
   width: clamp(5rem, 100%, 9rem);
-  font-size: $font-size-content;
+  font-size: $font-size-m;
   font-family: inherit;
 }
 
@@ -25,4 +25,7 @@ body {
 
 .content-desc {
   font-size: $font-size-content;
+}
+.list-desc {
+  font-size: clamp(0.89rem, 1vw, 1.4rem);
 }

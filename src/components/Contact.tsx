@@ -49,12 +49,12 @@ const Contact = () => {
           </a>
         </figure>
         <figure className="contact-item">
-          <a href="mailto:thirusakthi.official@gmail.com" target="_blank">
+          <a href="mailto:thirusakthi.dev@gmail.com" target="_blank">
             <img
               src={darkMode ? Email : EmailDark}
               style={{ width: 29, height: 29 }}
             ></img>
-            <figcaption>thirusakthi.official@gmail.com</figcaption>
+            <figcaption>thirusakthi.dev@gmail.com</figcaption>
           </a>
         </figure>
       </section>

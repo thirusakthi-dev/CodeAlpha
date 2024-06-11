@@ -1,5 +1,5 @@
 import Profile from "../assets/images/dev-profile.png";
-import Resume from "../assets/files/Thiruvengadam ReactJS Resume.pdf";
+import Resume from "../assets/files/Thiruvengadam Resume Updated.pdf";
 
 const Home = () => {
   return (

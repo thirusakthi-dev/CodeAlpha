@@ -1,28 +1,61 @@
 @import "../abstracts/variables.scss";
-
+@import "../animation.scss";
 .dev-logo {
-  max-width: 300px;
+  max-width: 360px;
+  flex-grow: 2;
 }
 
 .dev-img {
-  width: clamp(100px, 100%, 300px);
+  width: clamp(240px, 100%, 360px);
   object-fit: cover;
+  border-radius: 2.1rem;
 }
 
 .about-section {
   display: flex;
-  background-color: #3398d2;
+  background-color: #023e8a;
   margin: 1.6rem;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 1.3rem;
-  padding: 1rem;
+  gap: 3rem;
+  padding: 1.9rem;
   border-radius: 1rem;
   color: #f5f8fe;
+
+  // animation: ScrollReveal linear;
+  // animation-timeline: view();
+  // animation-range-start: contain;
+  // animation-range-end: 700px;
 }
+
 .about-content {
   display: flex;
   flex-direction: column;
   gap: 0.59rem;
   font-family: $font-size-content;
+  //width: clamp(100px, 100%, 700px);
+}
+
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  li {
+    list-style: none;
+    &::before {
+      content: "⚡";
+    }
+  }
+}
+
+@keyframes ScrollReveal {
+  from {
+    scale: 0.7;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
 }

@@ -18,6 +18,11 @@ a {
   justify-content: center;
   align-items: center;
   margin: 1rem;
+  .contact-desc {
+    padding: 0.4rem 0.6rem;
+    width: clamp(300px, 100%, 890px);
+    font-size: clamp(0.89rem, 1.03vw, 1.6rem);
+  }
 }
 
 .contact-head {
@@ -25,12 +30,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
   gap: 0.69rem;
-}
-
-.contact-desc {
-  width: clamp(300px, 100%, 890px);
-  font-size: clamp(0.89rem, 1.03vw, 1.6rem);
 }
 
 .contact-container {
@@ -47,6 +48,8 @@ a {
   margin: 1.9rem;
   font-size: $font-size-m;
   overflow-wrap: unset;
+  word-break: unset;
+  word-wrap: unset;
   //   background-color: aliceblue;
 }
 
