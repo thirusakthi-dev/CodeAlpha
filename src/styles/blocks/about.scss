@@ -42,7 +42,8 @@
   gap: 0.4rem;
 
   li {
-    font-size: clamp(.81rem,0.91vw,1.4rem);
+   
+    font-size: clamp(.83rem,1.1vw,1.4rem);
     list-style: none;
     &::before {
       content: "⚡";
