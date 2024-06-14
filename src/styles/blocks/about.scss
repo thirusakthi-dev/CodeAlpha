@@ -1,23 +1,24 @@
 @import "../abstracts/variables.scss";
 @import "../animation.scss";
 .dev-logo {
-  max-width: 360px;
-  flex-grow: 2;
+  max-width: 300px;
+  min-width: 290px;
 }
 
 .dev-img {
-  width: clamp(240px, 100%, 360px);
+  width: 100%;
   object-fit: cover;
   border-radius: 2.1rem;
 }
 
 .about-section {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: #023e8a;
   margin: 1.6rem;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 3rem;
+  gap: 1rem;
   padding: 1.9rem;
   border-radius: 1rem;
   color: #f5f8fe;

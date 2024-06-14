@@ -21,7 +21,6 @@ a {
   .contact-desc {
     padding: 0.4rem 0.6rem;
     width: clamp(300px, 100%, 890px);
-    font-size: clamp(0.89rem, 1.03vw, 1.6rem);
   }
 }
 
@@ -46,10 +45,13 @@ a {
   flex-direction: row;
   justify-content: center;
   margin: 1.9rem;
-  font-size: $font-size-m;
   overflow-wrap: unset;
   word-break: unset;
   word-wrap: unset;
+
+  figcaption {
+    font-size: clamp(0.89rem, 1vw, 1.9rem);
+  }
   //   background-color: aliceblue;
 }
 
