@@ -20,7 +20,11 @@
 
 @media screen and (width <= 550px) {
   .contact-container {
+<<<<<<< HEAD
     grid-template-columns: repeat(1, 1.1fr);
+=======
+    grid-template-columns: repeat(1, 1.3fr);
+>>>>>>> 5a2c87de723f2215b511be5d88060884acaea872
   }
 
   .contact-item {
